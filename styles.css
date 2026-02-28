@@ -1,0 +1,90 @@
+.main-section {
+    max-width: 500px;
+
+
+}
+
+/* This is a comment about the title */
+.title {
+    font-size: 100px;
+}
+
+.intro {
+    max-width: 500px;
+    text-align: center;
+}
+
+.box1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.box2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: solid black 2px;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box3 {
+    border: solid black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    border: solid black 2px;
+    width: 100px;
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 15px;
+
+}
+
+html {
+    margin: 0px;
+    background-image: url("pictures/Mountain.jpeg");
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.topcontainer {
+    display: flex;
+    justify-content: space-between
+}
+
+.image1 {
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.nextcontainer {
+    display: flex;
+    justify-content: space-between
+}
+
+.image2 {
+    margin-left: 500px;
+    margin-top: 0px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+}
+
+
+
+}
