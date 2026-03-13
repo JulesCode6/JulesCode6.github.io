@@ -37,7 +37,7 @@ div.scroll-container img {
     margin: 10px;
     border: solid black 2px;
     width: 100px;
-    background-color: pink;
+    background-color: #25A9D5;
     text-align: center;
     color: black;
     border-radius: 50px;
@@ -56,12 +56,17 @@ div.scroll-container img {
 .aboutheader {
     display: flex;
     justify-content: space-around;
-    background-color: blue;
-    height: 300px;
+    background-color: #0d77bd;
+    height: 200px;
     color: white;
     text-align: center;
     align-items: center;
+    margin: auto;
 
+}
+
+.about1 {
+    font-size: 50px;
 }
 
 .adventuresheader {
@@ -71,25 +76,53 @@ div.scroll-container img {
     color: white;
     text-align: center;
     align-items: center;
-    height: 300px;
+    height: 200px;
 }
 
-.galleryheader {
-    display: flex;
-    justify-content: center;
-    background-color: teal;
+.adventures1 {
+    font-size: 50px;
+
+}
+
+.adventuresdiv1 {
+    font-size: 30px;
+    width: 50%;
+    border: solid #333 2px;
+    padding: 10px;
+    background-color: rgb(236, 241, 240);
+    margin: auto;
+}
+
+.adventuresdiv1 h2 {
     text-align: center;
-    align-items: center;
-    height: 300px;
+    margin: 0;
 }
 
 .gearheader {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #1d7a84;
     color: white;
     text-align: center;
     align-items: center;
-    height: 300px;
+    height: 200px;
 
+}
+
+.gear1 {
+    font-size: 50px;
+}
+
+
+
+
+/* code for a hexagon - not using- saving*/
+.hexagon {
+    width: 100px;
+    /* Adjust size as needed */
+    height: calc(100px * 1.1547);
+    /* Maintain aspect ratio */
+    background: 003249;
+    /* Example color */
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
 }
