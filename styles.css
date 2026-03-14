@@ -106,7 +106,7 @@ html {
     position: relative;
     flex: 0 0 auto;
     /*prevents inmages from shrinking*/
-    width: 50%;
+    width: 300px;
 }
 
 .imagehover {
@@ -154,6 +154,7 @@ div.scroll-container {
     display: flex;
     background-color: #333;
     overflow: auto;
+    gap: 15px;
     white-space: nowrap;
     padding: 10px;
 
@@ -166,10 +167,10 @@ div.scroll-container img {
 .scroll-containter {
     display: flex;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 15px;
     /* space between inmages*/
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 
